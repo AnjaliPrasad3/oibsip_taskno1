@@ -1,0 +1,92 @@
+* {
+    margin: 0em;
+    padding: 0em;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+
+
+.review h2{
+    font-family: 'Cabin Sketch', cursive;
+    color: white;
+}
+.review h4{
+    font-family: 'Kalam', cursive;
+    color: white;
+}
+
+.head {
+    width: 100%;
+    height: 100vh;
+    /* display: reative; */
+    align-items: center;
+    justify-content: center;
+    /* margin: 0 0 20% 0; */
+   }
+
+.content {
+    text-align: center;
+    display: block;
+    padding: 5em 0;
+}
+
+.content h1 {
+    font-size: 400%;
+    color: white;
+    font-family: 'Kaushan Script', cursive;
+}
+
+.content h2 {
+    color: white;
+    font-family: 'Cabin Sketch', cursive;
+}
+
+.bgvideo {
+    position: absolute;
+    width: 100%;
+    z-index: -1;
+}
+
+.bt {
+    -webkit-border-radius: 28;
+    -moz-border-radius: 28;
+    border-radius: 28px;
+    font-family: Arial;
+    color: #ed9507;
+    font-size: 15px;
+    background: #3b4145;
+    padding: 5px 15px 5px 15px;
+    text-decoration: none;
+}
+
+.bt:hover {
+    background: #c3c7c9;
+    text-decoration: none;
+}
+
+.review {
+    position: relative;
+    /* height: 20em; */
+    display: block;
+    background-color: rgba(0, 0, 0, 0.4);
+   padding: 2em 0 2em 0;
+   text-align: center;
+   top: 20%;
+   
+}
+
+.Rimg{
+    width: 15%;
+    margin: 10px;
+    max-height: 100em;
+}
+
+.navbar{
+    position: fixed;
+}
+
+#trip{
+    width: 30px;
+    color: aliceblue;
+}
